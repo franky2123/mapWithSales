@@ -1,0 +1,1695 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_13e8787147d4a4d2010bb1f0717e99b3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_13e8787147d4a4d2010bb1f0717e99b3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_13e8787147d4a4d2010bb1f0717e99b3 = L.map(
+                "map_13e8787147d4a4d2010bb1f0717e99b3",
+                {
+                    center: [37.9838, 23.7275],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_aa498a99694c435e9fbb129561e1c6d2 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_13e8787147d4a4d2010bb1f0717e99b3);
+        
+    
+            var marker_cluster_799413648bfe136dbcba7f81b386b295 = L.markerClusterGroup(
+                {}
+            );
+            map_13e8787147d4a4d2010bb1f0717e99b3.addLayer(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+            var marker_522d530c97e9456b021718405389d373 = L.marker(
+                [37.9668, 23.7361],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_ef96ceea46e310ccb91a34536b223d18 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ecdacf263ffdc6b56ac4b2e6e1f6e519 = $(`<div id="html_ecdacf263ffdc6b56ac4b2e6e1f6e519" style="width: 100.0%; height: 100.0%;">Apartment Mets 110 sq. m</div>`)[0];
+                popup_ef96ceea46e310ccb91a34536b223d18.setContent(html_ecdacf263ffdc6b56ac4b2e6e1f6e519);
+            
+        
+
+        marker_522d530c97e9456b021718405389d373.bindPopup(popup_ef96ceea46e310ccb91a34536b223d18)
+        ;
+
+        
+    
+    
+            var marker_117d0632898cf9da0ed7f7d557695fff = L.marker(
+                [37.9390718, 23.656783],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_ade6f5f9a63ac793169d70101135e461 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_baa68021e2e493f09dc799eb3d116bc7 = $(`<div id="html_baa68021e2e493f09dc799eb3d116bc7" style="width: 100.0%; height: 100.0%;">Apartment Kastella - Passalimani</div>`)[0];
+                popup_ade6f5f9a63ac793169d70101135e461.setContent(html_baa68021e2e493f09dc799eb3d116bc7);
+            
+        
+
+        marker_117d0632898cf9da0ed7f7d557695fff.bindPopup(popup_ade6f5f9a63ac793169d70101135e461)
+        ;
+
+        
+    
+    
+            var marker_cab0356a5ed7f1eb2aaf0eb585765116 = L.marker(
+                [38.0878845, 23.9761139],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_62677359870922955499d766fd35e9d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a28e93372ce3b9236aaffddf70cb4546 = $(`<div id="html_a28e93372ce3b9236aaffddf70cb4546" style="width: 100.0%; height: 100.0%;">Plot Nea Makri</div>`)[0];
+                popup_62677359870922955499d766fd35e9d4.setContent(html_a28e93372ce3b9236aaffddf70cb4546);
+            
+        
+
+        marker_cab0356a5ed7f1eb2aaf0eb585765116.bindPopup(popup_62677359870922955499d766fd35e9d4)
+        ;
+
+        
+    
+    
+            var marker_5ecf742c700065d2d17f81fc12a9ed1b = L.marker(
+                [38.0117781, 23.7352405],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_2c5968b03bbd1c8eba3a62048eeb9a88 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e97af1c6f20c600d2182e8da8ed7dc3 = $(`<div id="html_0e97af1c6f20c600d2182e8da8ed7dc3" style="width: 100.0%; height: 100.0%;">Apartment Patision - Acharnon</div>`)[0];
+                popup_2c5968b03bbd1c8eba3a62048eeb9a88.setContent(html_0e97af1c6f20c600d2182e8da8ed7dc3);
+            
+        
+
+        marker_5ecf742c700065d2d17f81fc12a9ed1b.bindPopup(popup_2c5968b03bbd1c8eba3a62048eeb9a88)
+        ;
+
+        
+    
+    
+            var marker_eeab5c07bae68afc500c1b5f801870ce = L.marker(
+                [38.0073625, 23.4280032],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_711ee719341d97b9cf1aa792eb919763 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5146c85d898aafc13d97caee3b25f35 = $(`<div id="html_a5146c85d898aafc13d97caee3b25f35" style="width: 100.0%; height: 100.0%;">Maisonette Nea Peramos 145 sq. m</div>`)[0];
+                popup_711ee719341d97b9cf1aa792eb919763.setContent(html_a5146c85d898aafc13d97caee3b25f35);
+            
+        
+
+        marker_eeab5c07bae68afc500c1b5f801870ce.bindPopup(popup_711ee719341d97b9cf1aa792eb919763)
+        ;
+
+        
+    
+    
+            var marker_c6716d2b532773940a6b41368f257c59 = L.marker(
+                [38.0209212, 23.7296286],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_a0f0b0d6ea90d45f52417b30a5a8c85f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_84d4468e7b69f651f9eb43faa561ab5a = $(`<div id="html_84d4468e7b69f651f9eb43faa561ab5a" style="width: 100.0%; height: 100.0%;">Apartment Patisia</div>`)[0];
+                popup_a0f0b0d6ea90d45f52417b30a5a8c85f.setContent(html_84d4468e7b69f651f9eb43faa561ab5a);
+            
+        
+
+        marker_c6716d2b532773940a6b41368f257c59.bindPopup(popup_a0f0b0d6ea90d45f52417b30a5a8c85f)
+        ;
+
+        
+    
+    
+            var marker_f7b81cc5e0202d8d11de235bd4f66beb = L.marker(
+                [38.0027173, 23.7423148],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_33bef9232e37c6b3ed0b23161b0be2ef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_97c1fe19d92077739f122e62a8fa4caf = $(`<div id="html_97c1fe19d92077739f122e62a8fa4caf" style="width: 100.0%; height: 100.0%;">Apartment Kipseli</div>`)[0];
+                popup_33bef9232e37c6b3ed0b23161b0be2ef.setContent(html_97c1fe19d92077739f122e62a8fa4caf);
+            
+        
+
+        marker_f7b81cc5e0202d8d11de235bd4f66beb.bindPopup(popup_33bef9232e37c6b3ed0b23161b0be2ef)
+        ;
+
+        
+    
+    
+            var marker_1331759a3e4f0c6f9b3090cbcdb977f8 = L.marker(
+                [37.99213887088036, 23.678232848611625],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_523fbc55fb3ad71a06a38552bbdd3d8c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4fece218ee4fff0e39d7150c6b25b5d1 = $(`<div id="html_4fece218ee4fff0e39d7150c6b25b5d1" style="width: 100.0%; height: 100.0%;">Detached West</div>`)[0];
+                popup_523fbc55fb3ad71a06a38552bbdd3d8c.setContent(html_4fece218ee4fff0e39d7150c6b25b5d1);
+            
+        
+
+        marker_1331759a3e4f0c6f9b3090cbcdb977f8.bindPopup(popup_523fbc55fb3ad71a06a38552bbdd3d8c)
+        ;
+
+        
+    
+    
+            var marker_6fac31c76aeb8614fe6744cfd2c6173e = L.marker(
+                [37.8448947, 23.7703425],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_22161566f86b6a97d29a25b82ab4e4a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_89a7dc31f832812bb227bffff456e72c = $(`<div id="html_89a7dc31f832812bb227bffff456e72c" style="width: 100.0%; height: 100.0%;">Plot Voula</div>`)[0];
+                popup_22161566f86b6a97d29a25b82ab4e4a7.setContent(html_89a7dc31f832812bb227bffff456e72c);
+            
+        
+
+        marker_6fac31c76aeb8614fe6744cfd2c6173e.bindPopup(popup_22161566f86b6a97d29a25b82ab4e4a7)
+        ;
+
+        
+    
+    
+            var marker_cd2bd91599dafd23c648f6e088a79f9e = L.marker(
+                [38.08537473769284, 23.73832768641564],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_a617d816e05df94c022ed245bf9d5733 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b09e56b721bc8cb250da25021c72072b = $(`<div id="html_b09e56b721bc8cb250da25021c72072b" style="width: 100.0%; height: 100.0%;">Apartment Acharnes 91sq.m</div>`)[0];
+                popup_a617d816e05df94c022ed245bf9d5733.setContent(html_b09e56b721bc8cb250da25021c72072b);
+            
+        
+
+        marker_cd2bd91599dafd23c648f6e088a79f9e.bindPopup(popup_a617d816e05df94c022ed245bf9d5733)
+        ;
+
+        
+    
+    
+            var marker_839c9c91a18ecac4eba20a2e90cbadbe = L.marker(
+                [40.6400629, 22.9444191],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_fcc7263c507d8af95381f256f5bb8a60 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6b423b5d5248ef92969bd347c8e29ec = $(`<div id="html_b6b423b5d5248ef92969bd347c8e29ec" style="width: 100.0%; height: 100.0%;">Offices Center of Thessaloniki 140.18sq.m</div>`)[0];
+                popup_fcc7263c507d8af95381f256f5bb8a60.setContent(html_b6b423b5d5248ef92969bd347c8e29ec);
+            
+        
+
+        marker_839c9c91a18ecac4eba20a2e90cbadbe.bindPopup(popup_fcc7263c507d8af95381f256f5bb8a60)
+        ;
+
+        
+    
+    
+            var marker_09976249a0d40a9ffb77191687ef0d2f = L.marker(
+                [37.9778401, 23.7595457],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_4e1f88d38afcb8978029e2a53d93add9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2774b1cf2c36abd16d2fcf95a31e5154 = $(`<div id="html_2774b1cf2c36abd16d2fcf95a31e5154" style="width: 100.0%; height: 100.0%;">Apartment Ilisia 75sq.m</div>`)[0];
+                popup_4e1f88d38afcb8978029e2a53d93add9.setContent(html_2774b1cf2c36abd16d2fcf95a31e5154);
+            
+        
+
+        marker_09976249a0d40a9ffb77191687ef0d2f.bindPopup(popup_4e1f88d38afcb8978029e2a53d93add9)
+        ;
+
+        
+    
+    
+            var marker_06a79ef63c39196321b3f9827ba17a74 = L.marker(
+                [38.02133070000001, 23.7986297],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_19948758878489808bfb68e9c8ca62ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3845994b7d52a240ca0d83b32a354ab4 = $(`<div id="html_3845994b7d52a240ca0d83b32a354ab4" style="width: 100.0%; height: 100.0%;">Apartment Chalandri 63sq.m</div>`)[0];
+                popup_19948758878489808bfb68e9c8ca62ae.setContent(html_3845994b7d52a240ca0d83b32a354ab4);
+            
+        
+
+        marker_06a79ef63c39196321b3f9827ba17a74.bindPopup(popup_19948758878489808bfb68e9c8ca62ae)
+        ;
+
+        
+    
+    
+            var marker_6dc5866f0345de5ab58fb54da8d26a21 = L.marker(
+                [37.714177, 24.0576632],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_102f7297f79bd33c612a3fbba0bc6698 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4101aec0306ef4ab139d905958b5800 = $(`<div id="html_b4101aec0306ef4ab139d905958b5800" style="width: 100.0%; height: 100.0%;">Maisonette Lavrio 150sq.m</div>`)[0];
+                popup_102f7297f79bd33c612a3fbba0bc6698.setContent(html_b4101aec0306ef4ab139d905958b5800);
+            
+        
+
+        marker_6dc5866f0345de5ab58fb54da8d26a21.bindPopup(popup_102f7297f79bd33c612a3fbba0bc6698)
+        ;
+
+        
+    
+    
+            var marker_7f2ac12ce96c757326eb39f6998f8565 = L.marker(
+                [40.6241099, 22.9734623],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_c6d181a39fa9e5206047441db6e096b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_feb17653072062c40c4161ee4fc6b540 = $(`<div id="html_feb17653072062c40c4161ee4fc6b540" style="width: 100.0%; height: 100.0%;">Apartment Triandria 85sq.m</div>`)[0];
+                popup_c6d181a39fa9e5206047441db6e096b9.setContent(html_feb17653072062c40c4161ee4fc6b540);
+            
+        
+
+        marker_7f2ac12ce96c757326eb39f6998f8565.bindPopup(popup_c6d181a39fa9e5206047441db6e096b9)
+        ;
+
+        
+    
+    
+            var marker_8573bf4aa58a637e75c7846c3913fd54 = L.marker(
+                [38.0013143, 23.7090579],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_05f9e9878c89c6301c5fd4310dd539e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1bf87e81bc3aab9041bcdb6fbca5c83e = $(`<div id="html_1bf87e81bc3aab9041bcdb6fbca5c83e" style="width: 100.0%; height: 100.0%;">Apartment Kolonos - Kolokynthous 52sq.m</div>`)[0];
+                popup_05f9e9878c89c6301c5fd4310dd539e3.setContent(html_1bf87e81bc3aab9041bcdb6fbca5c83e);
+            
+        
+
+        marker_8573bf4aa58a637e75c7846c3913fd54.bindPopup(popup_05f9e9878c89c6301c5fd4310dd539e3)
+        ;
+
+        
+    
+    
+            var marker_bffe4d82e14e80de2bacba32be607f4b = L.marker(
+                [37.9592596, 23.7563687],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_655908e80b642fa7273a80b2fbddca1b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c73182059f5477b3fac0b192e75219ff = $(`<div id="html_c73182059f5477b3fac0b192e75219ff" style="width: 100.0%; height: 100.0%;">Apartment Vironas 85sq.m</div>`)[0];
+                popup_655908e80b642fa7273a80b2fbddca1b.setContent(html_c73182059f5477b3fac0b192e75219ff);
+            
+        
+
+        marker_bffe4d82e14e80de2bacba32be607f4b.bindPopup(popup_655908e80b642fa7273a80b2fbddca1b)
+        ;
+
+        
+    
+    
+            var marker_c57df182cf5bd66b4b110a7347e77b2b = L.marker(
+                [38.0549562, 23.807655],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_b71a34f583b3e9df51b18a8bca76e1c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a620ae5819a904f63c6eec87487ddf7 = $(`<div id="html_9a620ae5819a904f63c6eec87487ddf7" style="width: 100.0%; height: 100.0%;">Apartment Marousi 30sq.m</div>`)[0];
+                popup_b71a34f583b3e9df51b18a8bca76e1c9.setContent(html_9a620ae5819a904f63c6eec87487ddf7);
+            
+        
+
+        marker_c57df182cf5bd66b4b110a7347e77b2b.bindPopup(popup_b71a34f583b3e9df51b18a8bca76e1c9)
+        ;
+
+        
+    
+    
+            var marker_c205dd9e1349afe3f47373eb2437a5b0 = L.marker(
+                [40.6095724, 23.1014591],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_ed39768fcdf5fe4baaf66648ba33c8d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5dd6f75e51e8827a21573abe72ef7893 = $(`<div id="html_5dd6f75e51e8827a21573abe72ef7893" style="width: 100.0%; height: 100.0%;">Detached Chortiatis 199sq.m</div>`)[0];
+                popup_ed39768fcdf5fe4baaf66648ba33c8d8.setContent(html_5dd6f75e51e8827a21573abe72ef7893);
+            
+        
+
+        marker_c205dd9e1349afe3f47373eb2437a5b0.bindPopup(popup_ed39768fcdf5fe4baaf66648ba33c8d8)
+        ;
+
+        
+    
+    
+            var marker_e8bcdc1ff037a61007d4032a35849891 = L.marker(
+                [37.9860376, 23.7676309],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_fcfff9616ecc79d23d39ed041aa39618 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c169d570011db5e63a48fc8c42103f60 = $(`<div id="html_c169d570011db5e63a48fc8c42103f60" style="width: 100.0%; height: 100.0%;">Apartment Goudi 34sq.m</div>`)[0];
+                popup_fcfff9616ecc79d23d39ed041aa39618.setContent(html_c169d570011db5e63a48fc8c42103f60);
+            
+        
+
+        marker_e8bcdc1ff037a61007d4032a35849891.bindPopup(popup_fcfff9616ecc79d23d39ed041aa39618)
+        ;
+
+        
+    
+    
+            var marker_8d5432ce486bea233ec23d3990fc8f3f = L.marker(
+                [40.47499579999999, 22.9587865],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_d663eee43e812bed99945ad2a181bd3c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_079094ab68c23ad2494bd29617e21f21 = $(`<div id="html_079094ab68c23ad2494bd29617e21f21" style="width: 100.0%; height: 100.0%;">Villa Plagiari 400sq.m</div>`)[0];
+                popup_d663eee43e812bed99945ad2a181bd3c.setContent(html_079094ab68c23ad2494bd29617e21f21);
+            
+        
+
+        marker_8d5432ce486bea233ec23d3990fc8f3f.bindPopup(popup_d663eee43e812bed99945ad2a181bd3c)
+        ;
+
+        
+    
+    
+            var marker_724570e5fa0e63392d4cdb340f3539d5 = L.marker(
+                [39.5557317, 21.7678951],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_36d1d3e2d8ae3298adfa99ed9a9dae1c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9bd5f28bf9ad77d1378df601bf45386 = $(`<div id="html_f9bd5f28bf9ad77d1378df601bf45386" style="width: 100.0%; height: 100.0%;">Apartment Trikala</div>`)[0];
+                popup_36d1d3e2d8ae3298adfa99ed9a9dae1c.setContent(html_f9bd5f28bf9ad77d1378df601bf45386);
+            
+        
+
+        marker_724570e5fa0e63392d4cdb340f3539d5.bindPopup(popup_36d1d3e2d8ae3298adfa99ed9a9dae1c)
+        ;
+
+        
+    
+    
+            var marker_07088993a67209c3a59746b7d4ce877b = L.marker(
+                [37.8920121, 23.7477897],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_500158de4b494d40fbd8ff798c91ac75 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10e25ae17d9348fdd08a7aed73f5cfb9 = $(`<div id="html_10e25ae17d9348fdd08a7aed73f5cfb9" style="width: 100.0%; height: 100.0%;">Maisonette Elliniko 165sq.m</div>`)[0];
+                popup_500158de4b494d40fbd8ff798c91ac75.setContent(html_10e25ae17d9348fdd08a7aed73f5cfb9);
+            
+        
+
+        marker_07088993a67209c3a59746b7d4ce877b.bindPopup(popup_500158de4b494d40fbd8ff798c91ac75)
+        ;
+
+        
+    
+    
+            var marker_2624f65e1b6bd4b4d2c950d46dee8b7f = L.marker(
+                [40.6241099, 22.9734623],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_5d4fd9df22c3c7a248bb7fc8f6618c03 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7cdce16e881d8f88c7bed564f421b93 = $(`<div id="html_c7cdce16e881d8f88c7bed564f421b93" style="width: 100.0%; height: 100.0%;">Apartment Triandria - Doxa 45sq.m</div>`)[0];
+                popup_5d4fd9df22c3c7a248bb7fc8f6618c03.setContent(html_c7cdce16e881d8f88c7bed564f421b93);
+            
+        
+
+        marker_2624f65e1b6bd4b4d2c950d46dee8b7f.bindPopup(popup_5d4fd9df22c3c7a248bb7fc8f6618c03)
+        ;
+
+        
+    
+    
+            var marker_6f4c3c2cec1ce2d3711e033aa859a336 = L.marker(
+                [37.96775969999999, 23.7469741],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_fb14ef49c87a3fe829c7512ed0395f60 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da9282dbdd9f757c5ad8d56f6e43430f = $(`<div id="html_da9282dbdd9f757c5ad8d56f6e43430f" style="width: 100.0%; height: 100.0%;">Apartment Pagkrati 55sq.m</div>`)[0];
+                popup_fb14ef49c87a3fe829c7512ed0395f60.setContent(html_da9282dbdd9f757c5ad8d56f6e43430f);
+            
+        
+
+        marker_6f4c3c2cec1ce2d3711e033aa859a336.bindPopup(popup_fb14ef49c87a3fe829c7512ed0395f60)
+        ;
+
+        
+    
+    
+            var marker_639785861f6a46cf1ade1a270c8dbfd9 = L.marker(
+                [37.9845573, 23.6478153],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_940198fed41ebd1b2eabb68e78be8e89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5536dcf324a5390b3cc7c52c96d0f6c3 = $(`<div id="html_5536dcf324a5390b3cc7c52c96d0f6c3" style="width: 100.0%; height: 100.0%;">Maisonette Korydallos 124sq.m</div>`)[0];
+                popup_940198fed41ebd1b2eabb68e78be8e89.setContent(html_5536dcf324a5390b3cc7c52c96d0f6c3);
+            
+        
+
+        marker_639785861f6a46cf1ade1a270c8dbfd9.bindPopup(popup_940198fed41ebd1b2eabb68e78be8e89)
+        ;
+
+        
+    
+    
+            var marker_d3f64d4697f9b975ccb3eeadd677009a = L.marker(
+                [38.0476296, 23.8696276],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_5e1d80b706ea3333e6843d08824301eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_59fb877d4f5287aa55ab8fa4fb59b4b9 = $(`<div id="html_59fb877d4f5287aa55ab8fa4fb59b4b9" style="width: 100.0%; height: 100.0%;">Maisonette Penteli 240sq.m</div>`)[0];
+                popup_5e1d80b706ea3333e6843d08824301eb.setContent(html_59fb877d4f5287aa55ab8fa4fb59b4b9);
+            
+        
+
+        marker_d3f64d4697f9b975ccb3eeadd677009a.bindPopup(popup_5e1d80b706ea3333e6843d08824301eb)
+        ;
+
+        
+    
+    
+            var marker_31a4546ff061ecab8cedf299746c2f7b = L.marker(
+                [38.0549562, 23.807655],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_79a186bdb1182d9e0bdeeb792ece7416 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7742ec0a3fbb9e42ae5bf93f561cea69 = $(`<div id="html_7742ec0a3fbb9e42ae5bf93f561cea69" style="width: 100.0%; height: 100.0%;">Apartment Marousi 138sq.m</div>`)[0];
+                popup_79a186bdb1182d9e0bdeeb792ece7416.setContent(html_7742ec0a3fbb9e42ae5bf93f561cea69);
+            
+        
+
+        marker_31a4546ff061ecab8cedf299746c2f7b.bindPopup(popup_79a186bdb1182d9e0bdeeb792ece7416)
+        ;
+
+        
+    
+    
+            var marker_0214972de35b8af05f130c57013631f1 = L.marker(
+                [38.0878845, 23.9761139],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_9bd7377eaf0822d6d8124f6a8dc5d06a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f32e4775db202f0bfc6cf3fd609e58bd = $(`<div id="html_f32e4775db202f0bfc6cf3fd609e58bd" style="width: 100.0%; height: 100.0%;">Apartment Nea Makri 171sq.m</div>`)[0];
+                popup_9bd7377eaf0822d6d8124f6a8dc5d06a.setContent(html_f32e4775db202f0bfc6cf3fd609e58bd);
+            
+        
+
+        marker_0214972de35b8af05f130c57013631f1.bindPopup(popup_9bd7377eaf0822d6d8124f6a8dc5d06a)
+        ;
+
+        
+    
+    
+            var marker_e82b9833025ba38ce1fa6ee82e6f9067 = L.marker(
+                [38.0013143, 23.7090579],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_ba896b62083b7eaa867d7b945eab1059 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc1acb9506dd9a38480803cebd404b10 = $(`<div id="html_bc1acb9506dd9a38480803cebd404b10" style="width: 100.0%; height: 100.0%;">Apartment Kolonos - Kolokynthous 51sq.m</div>`)[0];
+                popup_ba896b62083b7eaa867d7b945eab1059.setContent(html_bc1acb9506dd9a38480803cebd404b10);
+            
+        
+
+        marker_e82b9833025ba38ce1fa6ee82e6f9067.bindPopup(popup_ba896b62083b7eaa867d7b945eab1059)
+        ;
+
+        
+    
+    
+            var marker_f3ad006556e6e4c3a8f9af75d02db629 = L.marker(
+                [37.95252747488226, 23.656950182162706],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_1ac740e41c6a268d7905e39ce4fc00fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00d9198250cc6e986378551a0850d643 = $(`<div id="html_00d9198250cc6e986378551a0850d643" style="width: 100.0%; height: 100.0%;">Apartment Kaminia 94sq.m</div>`)[0];
+                popup_1ac740e41c6a268d7905e39ce4fc00fe.setContent(html_00d9198250cc6e986378551a0850d643);
+            
+        
+
+        marker_f3ad006556e6e4c3a8f9af75d02db629.bindPopup(popup_1ac740e41c6a268d7905e39ce4fc00fe)
+        ;
+
+        
+    
+    
+            var marker_2d21f252a49ed3e15a9813872b0da8f4 = L.marker(
+                [38.0026465, 23.7135381],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_427a7085bc72de6b8f95d6a667b7a2a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_693ed8184402bf8062aa575ab6c54054 = $(`<div id="html_693ed8184402bf8062aa575ab6c54054" style="width: 100.0%; height: 100.0%;">Apartment Sepolia - Skouze 130sq.m</div>`)[0];
+                popup_427a7085bc72de6b8f95d6a667b7a2a0.setContent(html_693ed8184402bf8062aa575ab6c54054);
+            
+        
+
+        marker_2d21f252a49ed3e15a9813872b0da8f4.bindPopup(popup_427a7085bc72de6b8f95d6a667b7a2a0)
+        ;
+
+        
+    
+    
+            var marker_2dd28864ad59615ab31cd78dac49694b = L.marker(
+                [37.8833564, 23.9333037],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_2fec8e09e0d54c3883e761630b28819b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d015b32463000bc4832304ff414cb00f = $(`<div id="html_d015b32463000bc4832304ff414cb00f" style="width: 100.0%; height: 100.0%;">Maisonette Markopoulo 230sq.m</div>`)[0];
+                popup_2fec8e09e0d54c3883e761630b28819b.setContent(html_d015b32463000bc4832304ff414cb00f);
+            
+        
+
+        marker_2dd28864ad59615ab31cd78dac49694b.bindPopup(popup_2fec8e09e0d54c3883e761630b28819b)
+        ;
+
+        
+    
+    
+            var marker_25702a8f8309648af5d44476328c0228 = L.marker(
+                [37.937460814132855, 23.646157657644174],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_281bf4c7cd7fa2cf3d0d13bab13bdbc6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f19fe53a53eacd13fb20ad273e25309 = $(`<div id="html_1f19fe53a53eacd13fb20ad273e25309" style="width: 100.0%; height: 100.0%;">Apartment Zea 84sq.m</div>`)[0];
+                popup_281bf4c7cd7fa2cf3d0d13bab13bdbc6.setContent(html_1f19fe53a53eacd13fb20ad273e25309);
+            
+        
+
+        marker_25702a8f8309648af5d44476328c0228.bindPopup(popup_281bf4c7cd7fa2cf3d0d13bab13bdbc6)
+        ;
+
+        
+    
+    
+            var marker_af1641385579afa201293c022895d382 = L.marker(
+                [37.96775969999999, 23.7469741],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_346b27c82c07257736a18a3cd1f94174 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3afa75f8e6842bc8135e9f003a1f5b79 = $(`<div id="html_3afa75f8e6842bc8135e9f003a1f5b79" style="width: 100.0%; height: 100.0%;">Loft Pagkrati 59 sq.m</div>`)[0];
+                popup_346b27c82c07257736a18a3cd1f94174.setContent(html_3afa75f8e6842bc8135e9f003a1f5b79);
+            
+        
+
+        marker_af1641385579afa201293c022895d382.bindPopup(popup_346b27c82c07257736a18a3cd1f94174)
+        ;
+
+        
+    
+    
+            var marker_a6d9b8b4783bb4d365f05abff09d5a74 = L.marker(
+                [37.9679885, 23.7283255],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_230bf1e9ece9ad990fc3857d5e5f36d3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53c8a4f7c647ac11ee84fddd36eaffa7 = $(`<div id="html_53c8a4f7c647ac11ee84fddd36eaffa7" style="width: 100.0%; height: 100.0%;">Apartment Koukaki - Makrygianni</div>`)[0];
+                popup_230bf1e9ece9ad990fc3857d5e5f36d3.setContent(html_53c8a4f7c647ac11ee84fddd36eaffa7);
+            
+        
+
+        marker_a6d9b8b4783bb4d365f05abff09d5a74.bindPopup(popup_230bf1e9ece9ad990fc3857d5e5f36d3)
+        ;
+
+        
+    
+    
+            var marker_4017c6e50be36733f8e355b6f7e7e44d = L.marker(
+                [38.0047591, 23.7797255],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_4d708d29178e8366d258bb7f9e7a705b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dfff593dd07e053971f11aea7e9c9c4b = $(`<div id="html_dfff593dd07e053971f11aea7e9c9c4b" style="width: 100.0%; height: 100.0%;">Apartment Neo Psychiko</div>`)[0];
+                popup_4d708d29178e8366d258bb7f9e7a705b.setContent(html_dfff593dd07e053971f11aea7e9c9c4b);
+            
+        
+
+        marker_4017c6e50be36733f8e355b6f7e7e44d.bindPopup(popup_4d708d29178e8366d258bb7f9e7a705b)
+        ;
+
+        
+    
+    
+            var marker_c8d45537e9d1c7d8ab276ad1065e521a = L.marker(
+                [38.0852204, 23.738064],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_8754e3e76a7262cbd9b1a0639e307763 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_025d3c8a07c252c2623f66e6211caf46 = $(`<div id="html_025d3c8a07c252c2623f66e6211caf46" style="width: 100.0%; height: 100.0%;">Apartment Leof. Patision - Leof. Acharnon 50sq.m</div>`)[0];
+                popup_8754e3e76a7262cbd9b1a0639e307763.setContent(html_025d3c8a07c252c2623f66e6211caf46);
+            
+        
+
+        marker_c8d45537e9d1c7d8ab276ad1065e521a.bindPopup(popup_8754e3e76a7262cbd9b1a0639e307763)
+        ;
+
+        
+    
+    
+            var marker_04beac5e5fd6d9b079a031e36a6d64f6 = L.marker(
+                [38.0119445, 23.6539907],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_24fc8a3f5153ffc19f751778cd6f2f0c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ef362168dd474b678803bd1278d3917 = $(`<div id="html_8ef362168dd474b678803bd1278d3917" style="width: 100.0%; height: 100.0%;">Apartment Chaidari</div>`)[0];
+                popup_24fc8a3f5153ffc19f751778cd6f2f0c.setContent(html_8ef362168dd474b678803bd1278d3917);
+            
+        
+
+        marker_04beac5e5fd6d9b079a031e36a6d64f6.bindPopup(popup_24fc8a3f5153ffc19f751778cd6f2f0c)
+        ;
+
+        
+    
+    
+            var marker_8b706d56e726c7b63258245a7b6a977b = L.marker(
+                [37.98487799999999, 23.7193175],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_bfef95d8c50c7ae8b64333f05c61dec9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35b6e1a0b9bb538a909a9e35463d59e3 = $(`<div id="html_35b6e1a0b9bb538a909a9e35463d59e3" style="width: 100.0%; height: 100.0%;">Apartment Gazi - Metaxourgio - Votanikos 73sq.m</div>`)[0];
+                popup_bfef95d8c50c7ae8b64333f05c61dec9.setContent(html_35b6e1a0b9bb538a909a9e35463d59e3);
+            
+        
+
+        marker_8b706d56e726c7b63258245a7b6a977b.bindPopup(popup_bfef95d8c50c7ae8b64333f05c61dec9)
+        ;
+
+        
+    
+    
+            var marker_0e4d669b4b6159efb56d2ac2f44eb6fd = L.marker(
+                [38.0373632, 23.8374167],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_d80d2c55a0d3d624ea2d1b9d3e896ab4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cdc557d6b527c482d2ff437765f3b65b = $(`<div id="html_cdc557d6b527c482d2ff437765f3b65b" style="width: 100.0%; height: 100.0%;">Maisonette Vrilissia 201sq.m</div>`)[0];
+                popup_d80d2c55a0d3d624ea2d1b9d3e896ab4.setContent(html_cdc557d6b527c482d2ff437765f3b65b);
+            
+        
+
+        marker_0e4d669b4b6159efb56d2ac2f44eb6fd.bindPopup(popup_d80d2c55a0d3d624ea2d1b9d3e896ab4)
+        ;
+
+        
+    
+    
+            var marker_cea8433f9d8190697639e379dc3229c1 = L.marker(
+                [38.0135829, 23.8218079],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_1db191c3dd158fe5f1f19d5a39acc9b8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_963aaf80952ff3a219306721e37e0ef0 = $(`<div id="html_963aaf80952ff3a219306721e37e0ef0" style="width: 100.0%; height: 100.0%;">Apartment Agia Paraskevi 140sq.m</div>`)[0];
+                popup_1db191c3dd158fe5f1f19d5a39acc9b8.setContent(html_963aaf80952ff3a219306721e37e0ef0);
+            
+        
+
+        marker_cea8433f9d8190697639e379dc3229c1.bindPopup(popup_1db191c3dd158fe5f1f19d5a39acc9b8)
+        ;
+
+        
+    
+    
+            var marker_8daaee9a1d476542fdf9c3f91356be82 = L.marker(
+                [37.9746194, 23.6412944],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_d32baa57e52fe0aa55f2cacb1d839752 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f81fda94c2c2fb90dd6ce79a17202b71 = $(`<div id="html_f81fda94c2c2fb90dd6ce79a17202b71" style="width: 100.0%; height: 100.0%;">Apartment Kokkinia 23sq.m</div>`)[0];
+                popup_d32baa57e52fe0aa55f2cacb1d839752.setContent(html_f81fda94c2c2fb90dd6ce79a17202b71);
+            
+        
+
+        marker_8daaee9a1d476542fdf9c3f91356be82.bindPopup(popup_d32baa57e52fe0aa55f2cacb1d839752)
+        ;
+
+        
+    
+    
+            var marker_c0201eae6bb040d9fdcbb26638fd9a9e = L.marker(
+                [38.049242185669236, 23.772029091969273],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_3b7348bb51717ec06794e3f90dbfe14f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d24681a67af2dcede67399f23fc525d2 = $(`<div id="html_d24681a67af2dcede67399f23fc525d2" style="width: 100.0%; height: 100.0%;">Apartment Iraklio 70sq.m</div>`)[0];
+                popup_3b7348bb51717ec06794e3f90dbfe14f.setContent(html_d24681a67af2dcede67399f23fc525d2);
+            
+        
+
+        marker_c0201eae6bb040d9fdcbb26638fd9a9e.bindPopup(popup_3b7348bb51717ec06794e3f90dbfe14f)
+        ;
+
+        
+    
+    
+            var marker_4bab6e79805f27173df34bada8fcce9b = L.marker(
+                [37.98867449999999, 23.7637517],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_f8a27124cbc39cdae986cda663a4d755 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62bfed67529dfad5b09b919a0ad0556b = $(`<div id="html_62bfed67529dfad5b09b919a0ad0556b" style="width: 100.0%; height: 100.0%;">Apartment Ampelokipoi - Pentagon 45sq.m</div>`)[0];
+                popup_f8a27124cbc39cdae986cda663a4d755.setContent(html_62bfed67529dfad5b09b919a0ad0556b);
+            
+        
+
+        marker_4bab6e79805f27173df34bada8fcce9b.bindPopup(popup_f8a27124cbc39cdae986cda663a4d755)
+        ;
+
+        
+    
+    
+            var marker_71f4de991a9f64d7e65e1f5523eb3b3a = L.marker(
+                [38.02133070000001, 23.7986297],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_80d4fd2d97052f97b9848473d31d2e48 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cbe6af446c4dbf4f9138e348243a581b = $(`<div id="html_cbe6af446c4dbf4f9138e348243a581b" style="width: 100.0%; height: 100.0%;">Apartment Chalandri</div>`)[0];
+                popup_80d4fd2d97052f97b9848473d31d2e48.setContent(html_cbe6af446c4dbf4f9138e348243a581b);
+            
+        
+
+        marker_71f4de991a9f64d7e65e1f5523eb3b3a.bindPopup(popup_80d4fd2d97052f97b9848473d31d2e48)
+        ;
+
+        
+    
+    
+            var marker_721327bc64386660190dfa4ca0236bdd = L.marker(
+                [37.8756151, 23.7564773],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_add1965d7c4daade4094cf0d7d3a3b74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7970472047c3b467ee1c4986cf0ed884 = $(`<div id="html_7970472047c3b467ee1c4986cf0ed884" style="width: 100.0%; height: 100.0%;">Apartment Glyfada 109 sq.m</div>`)[0];
+                popup_add1965d7c4daade4094cf0d7d3a3b74.setContent(html_7970472047c3b467ee1c4986cf0ed884);
+            
+        
+
+        marker_721327bc64386660190dfa4ca0236bdd.bindPopup(popup_add1965d7c4daade4094cf0d7d3a3b74)
+        ;
+
+        
+    
+    
+            var marker_869fd03d7fcac093dfb36f888b69b09f = L.marker(
+                [37.9810676, 23.7323022],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_0f079f8a27994c4a51ccd1a8739a2ce4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c280021e897d4b9babbfe3fc5e86a808 = $(`<div id="html_c280021e897d4b9babbfe3fc5e86a808" style="width: 100.0%; height: 100.0%;">Retail 28 sq. m Akadimia</div>`)[0];
+                popup_0f079f8a27994c4a51ccd1a8739a2ce4.setContent(html_c280021e897d4b9babbfe3fc5e86a808);
+            
+        
+
+        marker_869fd03d7fcac093dfb36f888b69b09f.bindPopup(popup_0f079f8a27994c4a51ccd1a8739a2ce4)
+        ;
+
+        
+    
+    
+            var marker_327561281352932541e773fa51d0e703 = L.marker(
+                [40.6400629, 22.9444191],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_8b9ac75aab8e13bfd3213bfdc90e8422 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee3b788721669355bb91cf95d458c8a7 = $(`<div id="html_ee3b788721669355bb91cf95d458c8a7" style="width: 100.0%; height: 100.0%;">Apartment Center Of Thessaloniki 54sq.m</div>`)[0];
+                popup_8b9ac75aab8e13bfd3213bfdc90e8422.setContent(html_ee3b788721669355bb91cf95d458c8a7);
+            
+        
+
+        marker_327561281352932541e773fa51d0e703.bindPopup(popup_8b9ac75aab8e13bfd3213bfdc90e8422)
+        ;
+
+        
+    
+    
+            var marker_378a2ea1db55049f07df627effca51a7 = L.marker(
+                [38.0373632, 23.8374167],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_5def046600dcc9d593f7e2ba6d1b69e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be046f74c08f1e1c595345d89b7c6b47 = $(`<div id="html_be046f74c08f1e1c595345d89b7c6b47" style="width: 100.0%; height: 100.0%;">Apartment Vrilissia 91sq.m</div>`)[0];
+                popup_5def046600dcc9d593f7e2ba6d1b69e7.setContent(html_be046f74c08f1e1c595345d89b7c6b47);
+            
+        
+
+        marker_378a2ea1db55049f07df627effca51a7.bindPopup(popup_5def046600dcc9d593f7e2ba6d1b69e7)
+        ;
+
+        
+    
+    
+            var marker_309499675f05f979dce4e7ba3583369c = L.marker(
+                [38.0119445, 23.6539907],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_c200f70818a2b35fb07e0eb54e598463 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d18a3866db5f65674fe2d38f4cb6cea8 = $(`<div id="html_d18a3866db5f65674fe2d38f4cb6cea8" style="width: 100.0%; height: 100.0%;">Apartment Chaidari 93sq.m</div>`)[0];
+                popup_c200f70818a2b35fb07e0eb54e598463.setContent(html_d18a3866db5f65674fe2d38f4cb6cea8);
+            
+        
+
+        marker_309499675f05f979dce4e7ba3583369c.bindPopup(popup_c200f70818a2b35fb07e0eb54e598463)
+        ;
+
+        
+    
+    
+            var marker_da6c15efb39a5502842a15492b5ea507 = L.marker(
+                [37.9592596, 23.7563687],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_4778bdfc7bd2e5e7be8b47242deb90fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_470ccc86a3fa99a3c0b9d4423d775941 = $(`<div id="html_470ccc86a3fa99a3c0b9d4423d775941" style="width: 100.0%; height: 100.0%;">Apartment Vironas 107sq.m</div>`)[0];
+                popup_4778bdfc7bd2e5e7be8b47242deb90fa.setContent(html_470ccc86a3fa99a3c0b9d4423d775941);
+            
+        
+
+        marker_da6c15efb39a5502842a15492b5ea507.bindPopup(popup_4778bdfc7bd2e5e7be8b47242deb90fa)
+        ;
+
+        
+    
+    
+            var marker_38b8ad92de6212b8866a01ea525672f9 = L.marker(
+                [37.9556559, 23.6987635],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_9a26e9d41968e4818dfbfb8edbda2952 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b21dd26f6f05784e5b72f03b154f8f6 = $(`<div id="html_8b21dd26f6f05784e5b72f03b154f8f6" style="width: 100.0%; height: 100.0%;">Apartment Kallithea 85sq.m</div>`)[0];
+                popup_9a26e9d41968e4818dfbfb8edbda2952.setContent(html_8b21dd26f6f05784e5b72f03b154f8f6);
+            
+        
+
+        marker_38b8ad92de6212b8866a01ea525672f9.bindPopup(popup_9a26e9d41968e4818dfbfb8edbda2952)
+        ;
+
+        
+    
+    
+            var marker_2699d12a9bfc5e9ae9f9dd0710dc2c13 = L.marker(
+                [37.9878442, 23.73566],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_ec6893d2ac4c31667b992e742be0746a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0dcd99bde216d1732ad366b836debf17 = $(`<div id="html_0dcd99bde216d1732ad366b836debf17" style="width: 100.0%; height: 100.0%;">Apartment Exarchia - Neapoli 75sq.m</div>`)[0];
+                popup_ec6893d2ac4c31667b992e742be0746a.setContent(html_0dcd99bde216d1732ad366b836debf17);
+            
+        
+
+        marker_2699d12a9bfc5e9ae9f9dd0710dc2c13.bindPopup(popup_ec6893d2ac4c31667b992e742be0746a)
+        ;
+
+        
+    
+    
+            var marker_8d601ef287266683067d2b2d8ae21a4b = L.marker(
+                [37.9817858, 23.7430565],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_19694039c3c79257406e4d51c59e51e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_22941af731c02cf97e10d39511b8b6fb = $(`<div id="html_22941af731c02cf97e10d39511b8b6fb" style="width: 100.0%; height: 100.0%;">Apartment Kolonaki - Lykavittos 73sq.m</div>`)[0];
+                popup_19694039c3c79257406e4d51c59e51e4.setContent(html_22941af731c02cf97e10d39511b8b6fb);
+            
+        
+
+        marker_8d601ef287266683067d2b2d8ae21a4b.bindPopup(popup_19694039c3c79257406e4d51c59e51e4)
+        ;
+
+        
+    
+    
+            var marker_2f2737d0dd90b0098a418a7688aa49ad = L.marker(
+                [37.9909165, 23.7459493],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_0e714fa8cc7540842b342155aff005f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0c721480915602a043bb0755730592a = $(`<div id="html_f0c721480915602a043bb0755730592a" style="width: 100.0%; height: 100.0%;">Apartment Gkyzi - Pedion Areos 44sq.m</div>`)[0];
+                popup_0e714fa8cc7540842b342155aff005f9.setContent(html_f0c721480915602a043bb0755730592a);
+            
+        
+
+        marker_2f2737d0dd90b0098a418a7688aa49ad.bindPopup(popup_0e714fa8cc7540842b342155aff005f9)
+        ;
+
+        
+    
+    
+            var marker_2208e2a8a908f970aafc6c365fdb70cc = L.marker(
+                [37.96775969999999, 23.7469741],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_c8823ceaea8391426e420d1122ff67b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_59f5457176c17e57f6fcb4976482507d = $(`<div id="html_59f5457176c17e57f6fcb4976482507d" style="width: 100.0%; height: 100.0%;">Apartment Pagkrati 103sq.m</div>`)[0];
+                popup_c8823ceaea8391426e420d1122ff67b6.setContent(html_59f5457176c17e57f6fcb4976482507d);
+            
+        
+
+        marker_2208e2a8a908f970aafc6c365fdb70cc.bindPopup(popup_c8823ceaea8391426e420d1122ff67b6)
+        ;
+
+        
+    
+    
+            var marker_dec36ea7a9816adb63316936bda385d0 = L.marker(
+                [38.0926493, 23.8200477],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_15fe3e86ebd344ca72e265cd48014ebf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a91f229fe1622d2bf4880212e290de8 = $(`<div id="html_3a91f229fe1622d2bf4880212e290de8" style="width: 100.0%; height: 100.0%;">Apartment Nea Erithraia 124sq.m</div>`)[0];
+                popup_15fe3e86ebd344ca72e265cd48014ebf.setContent(html_3a91f229fe1622d2bf4880212e290de8);
+            
+        
+
+        marker_dec36ea7a9816adb63316936bda385d0.bindPopup(popup_15fe3e86ebd344ca72e265cd48014ebf)
+        ;
+
+        
+    
+    
+            var marker_bf18ec6591ae28be20c676b54005d401 = L.marker(
+                [37.8448947, 23.7703425],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_e0f25d1212690aaa754f56d83d6416a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b963321d83f1c8bd8dbd52f8d762c33c = $(`<div id="html_b963321d83f1c8bd8dbd52f8d762c33c" style="width: 100.0%; height: 100.0%;">Villa Voula 205sq.m</div>`)[0];
+                popup_e0f25d1212690aaa754f56d83d6416a6.setContent(html_b963321d83f1c8bd8dbd52f8d762c33c);
+            
+        
+
+        marker_bf18ec6591ae28be20c676b54005d401.bindPopup(popup_e0f25d1212690aaa754f56d83d6416a6)
+        ;
+
+        
+    
+    
+            var marker_6acf1aa35838bf16dc63fffdf0782551 = L.marker(
+                [38.0852204, 23.738064],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_a894a072a0ac87ef45384e7150e4a12b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28431945e62bd2208fd2edea5ba6d8d0 = $(`<div id="html_28431945e62bd2208fd2edea5ba6d8d0" style="width: 100.0%; height: 100.0%;">Apartment Leof. Patision - Leof. Acharnon 73sq.m</div>`)[0];
+                popup_a894a072a0ac87ef45384e7150e4a12b.setContent(html_28431945e62bd2208fd2edea5ba6d8d0);
+            
+        
+
+        marker_6acf1aa35838bf16dc63fffdf0782551.bindPopup(popup_a894a072a0ac87ef45384e7150e4a12b)
+        ;
+
+        
+    
+    
+            var marker_8a5a42bc57e7839106a9049af099d2a2 = L.marker(
+                [37.956715035594165, 23.72566135931318],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_59325a60c678e7dedf426ce8859c3cb6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1aa2e199898b177f648d54576efe2fad = $(`<div id="html_1aa2e199898b177f648d54576efe2fad" style="width: 100.0%; height: 100.0%;">Maisonette Neos Kosmos 116sq.m</div>`)[0];
+                popup_59325a60c678e7dedf426ce8859c3cb6.setContent(html_1aa2e199898b177f648d54576efe2fad);
+            
+        
+
+        marker_8a5a42bc57e7839106a9049af099d2a2.bindPopup(popup_59325a60c678e7dedf426ce8859c3cb6)
+        ;
+
+        
+    
+    
+            var marker_dc2a568097e29bce09e475ee00c9fd21 = L.marker(
+                [37.9679885, 23.7283255],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_6ca5f06a836247e00efc81b6352ea238 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9086aa177c4eae31b2b4402d08622ab2 = $(`<div id="html_9086aa177c4eae31b2b4402d08622ab2" style="width: 100.0%; height: 100.0%;">Retail / Leisure Koukaki - Makrygianni 591sq.m</div>`)[0];
+                popup_6ca5f06a836247e00efc81b6352ea238.setContent(html_9086aa177c4eae31b2b4402d08622ab2);
+            
+        
+
+        marker_dc2a568097e29bce09e475ee00c9fd21.bindPopup(popup_6ca5f06a836247e00efc81b6352ea238)
+        ;
+
+        
+    
+    
+            var marker_351fcdc554ea3757238e563fc46aedaa = L.marker(
+                [38.08537473769284, 23.73832768641564],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_ae52de8758c47da1d40c5d0eecc24faf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_863b7b388baf3eb49d4192da358feedb = $(`<div id="html_863b7b388baf3eb49d4192da358feedb" style="width: 100.0%; height: 100.0%;">Apartment Acharnes 81sq.m</div>`)[0];
+                popup_ae52de8758c47da1d40c5d0eecc24faf.setContent(html_863b7b388baf3eb49d4192da358feedb);
+            
+        
+
+        marker_351fcdc554ea3757238e563fc46aedaa.bindPopup(popup_ae52de8758c47da1d40c5d0eecc24faf)
+        ;
+
+        
+    
+    
+            var marker_bd6868a4183a166d677e0f78c03d36ed = L.marker(
+                [38.0027173, 23.7423148],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_adca6b1c0360a02f8b0b93c115020af5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f3fb95d4057e5c2e33684ec764055ff = $(`<div id="html_2f3fb95d4057e5c2e33684ec764055ff" style="width: 100.0%; height: 100.0%;">Apartment Kipseli 42sq.m</div>`)[0];
+                popup_adca6b1c0360a02f8b0b93c115020af5.setContent(html_2f3fb95d4057e5c2e33684ec764055ff);
+            
+        
+
+        marker_bd6868a4183a166d677e0f78c03d36ed.bindPopup(popup_adca6b1c0360a02f8b0b93c115020af5)
+        ;
+
+        
+    
+    
+            var marker_084736a33d5d88dd7d0811ddee03ffd7 = L.marker(
+                [38.0027173, 23.7423148],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_46753220900f6d5d71800c6c759db26b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_98d5a67a066b8c11cb7ab67eaeea38ca = $(`<div id="html_98d5a67a066b8c11cb7ab67eaeea38ca" style="width: 100.0%; height: 100.0%;">Apartment Kipseli 70sq.m</div>`)[0];
+                popup_46753220900f6d5d71800c6c759db26b.setContent(html_98d5a67a066b8c11cb7ab67eaeea38ca);
+            
+        
+
+        marker_084736a33d5d88dd7d0811ddee03ffd7.bindPopup(popup_46753220900f6d5d71800c6c759db26b)
+        ;
+
+        
+    
+    
+            var marker_f9da1a8d4eba282982ccb03f15ab073b = L.marker(
+                [37.9817858, 23.7430565],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_ba14c57431310adfdf3ba4e112095bca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c0068823072128b885f1663c29562ae7 = $(`<div id="html_c0068823072128b885f1663c29562ae7" style="width: 100.0%; height: 100.0%;">Apartment Kolonaki - Lykavittos</div>`)[0];
+                popup_ba14c57431310adfdf3ba4e112095bca.setContent(html_c0068823072128b885f1663c29562ae7);
+            
+        
+
+        marker_f9da1a8d4eba282982ccb03f15ab073b.bindPopup(popup_ba14c57431310adfdf3ba4e112095bca)
+        ;
+
+        
+    
+    
+            var marker_b7a7aca7680dcc988be57ab923b82913 = L.marker(
+                [38.0135829, 23.8218079],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_aeb61c6decd8d555f51c14da667a0b20 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8cb79964280cca929ecea8dbd1dc2843 = $(`<div id="html_8cb79964280cca929ecea8dbd1dc2843" style="width: 100.0%; height: 100.0%;">Offices Agia Paraskevi</div>`)[0];
+                popup_aeb61c6decd8d555f51c14da667a0b20.setContent(html_8cb79964280cca929ecea8dbd1dc2843);
+            
+        
+
+        marker_b7a7aca7680dcc988be57ab923b82913.bindPopup(popup_aeb61c6decd8d555f51c14da667a0b20)
+        ;
+
+        
+    
+    
+            var marker_318c8f0de07643785ec55ea114651d58 = L.marker(
+                [38.0227334, 23.7765697],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_307bbc956fa4324f0dda934ea6216d70 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9265f67c53d112f0f6094cfd99cb23ed = $(`<div id="html_9265f67c53d112f0f6094cfd99cb23ed" style="width: 100.0%; height: 100.0%;">Apartment Filothei 70sq.m</div>`)[0];
+                popup_307bbc956fa4324f0dda934ea6216d70.setContent(html_9265f67c53d112f0f6094cfd99cb23ed);
+            
+        
+
+        marker_318c8f0de07643785ec55ea114651d58.bindPopup(popup_307bbc956fa4324f0dda934ea6216d70)
+        ;
+
+        
+    
+    
+            var marker_f8186f49344785c3f4b289d8df40012a = L.marker(
+                [37.9746194, 23.6412944],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_db0ae56783948f2205e69ff5079025d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_428dabb41c0ff0a90fab9076e217ca44 = $(`<div id="html_428dabb41c0ff0a90fab9076e217ca44" style="width: 100.0%; height: 100.0%;">Apartment Kokkinia 86sq.m</div>`)[0];
+                popup_db0ae56783948f2205e69ff5079025d2.setContent(html_428dabb41c0ff0a90fab9076e217ca44);
+            
+        
+
+        marker_f8186f49344785c3f4b289d8df40012a.bindPopup(popup_db0ae56783948f2205e69ff5079025d2)
+        ;
+
+        
+    
+    
+            var marker_8f62a7106d2f998218fc5177003d74f4 = L.marker(
+                [37.983789870003534, 23.72762208577995],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_6fb39bb4522fcfd5fcf640f792f09e07 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd8aac054fae1a5371940d65835e3080 = $(`<div id="html_bd8aac054fae1a5371940d65835e3080" style="width: 100.0%; height: 100.0%;">Apartment Kentro (Athens) 34sq.m</div>`)[0];
+                popup_6fb39bb4522fcfd5fcf640f792f09e07.setContent(html_bd8aac054fae1a5371940d65835e3080);
+            
+        
+
+        marker_8f62a7106d2f998218fc5177003d74f4.bindPopup(popup_6fb39bb4522fcfd5fcf640f792f09e07)
+        ;
+
+        
+    
+    
+            var marker_64a0837cf54330a999b1d53cfd0ae37f = L.marker(
+                [40.6696921, 22.9155568],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_eafe2056bcc85b1db11e022449b19bb0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_565186998cd400cea5da81f658f69f5a = $(`<div id="html_565186998cd400cea5da81f658f69f5a" style="width: 100.0%; height: 100.0%;">Apartment Evosmos 84sq.m</div>`)[0];
+                popup_eafe2056bcc85b1db11e022449b19bb0.setContent(html_565186998cd400cea5da81f658f69f5a);
+            
+        
+
+        marker_64a0837cf54330a999b1d53cfd0ae37f.bindPopup(popup_eafe2056bcc85b1db11e022449b19bb0)
+        ;
+
+        
+    
+    
+            var marker_dc0a728dcbdc3672f3df023a84a173dd = L.marker(
+                [37.9817858, 23.7430565],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_37f6c40c1d491850e8988d825b0ff24d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc15d5a41ad82d5bb342141257d75c9e = $(`<div id="html_fc15d5a41ad82d5bb342141257d75c9e" style="width: 100.0%; height: 100.0%;">Apartment Kolonaki - Lykavittos 65sq.m</div>`)[0];
+                popup_37f6c40c1d491850e8988d825b0ff24d.setContent(html_fc15d5a41ad82d5bb342141257d75c9e);
+            
+        
+
+        marker_dc0a728dcbdc3672f3df023a84a173dd.bindPopup(popup_37f6c40c1d491850e8988d825b0ff24d)
+        ;
+
+        
+    
+    
+            var marker_84470b03143d951877f972ded43e3695 = L.marker(
+                [37.9679885, 23.7283255],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_a0430a21801168cf849d2003af5998cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee4c5f4960f7fe43f241ebb11b6cb778 = $(`<div id="html_ee4c5f4960f7fe43f241ebb11b6cb778" style="width: 100.0%; height: 100.0%;">Apartment Koukaki - Makrygianni 65sq.m</div>`)[0];
+                popup_a0430a21801168cf849d2003af5998cf.setContent(html_ee4c5f4960f7fe43f241ebb11b6cb778);
+            
+        
+
+        marker_84470b03143d951877f972ded43e3695.bindPopup(popup_a0430a21801168cf849d2003af5998cf)
+        ;
+
+        
+    
+    
+            var marker_642ae5e9b824580725132bc8779f2c9f = L.marker(
+                [38.0549562, 23.807655],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_329b2c595b55b5046ded8734e717a86c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f3fda0b99c10f8fa13a0eef25d6ade19 = $(`<div id="html_f3fda0b99c10f8fa13a0eef25d6ade19" style="width: 100.0%; height: 100.0%;">Apartment Marousi 41sq.m</div>`)[0];
+                popup_329b2c595b55b5046ded8734e717a86c.setContent(html_f3fda0b99c10f8fa13a0eef25d6ade19);
+            
+        
+
+        marker_642ae5e9b824580725132bc8779f2c9f.bindPopup(popup_329b2c595b55b5046ded8734e717a86c)
+        ;
+
+        
+    
+    
+            var marker_8eb6809c82e7f520fdf2ae3c97347da0 = L.marker(
+                [37.9878442, 23.73566],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_0b782bbbc7261c3b2179c37269be0aeb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8fa62720eb841efc7eb7354b201ef78 = $(`<div id="html_f8fa62720eb841efc7eb7354b201ef78" style="width: 100.0%; height: 100.0%;">Apartment Exarchia - Neapoli 30sq.m</div>`)[0];
+                popup_0b782bbbc7261c3b2179c37269be0aeb.setContent(html_f8fa62720eb841efc7eb7354b201ef78);
+            
+        
+
+        marker_8eb6809c82e7f520fdf2ae3c97347da0.bindPopup(popup_0b782bbbc7261c3b2179c37269be0aeb)
+        ;
+
+        
+    
+    
+            var marker_d0046a37cb854eb957303a82881ef1f6 = L.marker(
+                [38.0572295, 23.8336016],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_f0da76148ed4985bd248ce11383bff1e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aae84b4be9db6d573dafb40f9453ecd3 = $(`<div id="html_aae84b4be9db6d573dafb40f9453ecd3" style="width: 100.0%; height: 100.0%;">Apartment Melissia 85sq.m</div>`)[0];
+                popup_f0da76148ed4985bd248ce11383bff1e.setContent(html_aae84b4be9db6d573dafb40f9453ecd3);
+            
+        
+
+        marker_d0046a37cb854eb957303a82881ef1f6.bindPopup(popup_f0da76148ed4985bd248ce11383bff1e)
+        ;
+
+        
+    
+    
+            var marker_7984b44fb5f676555115098cdad8601a = L.marker(
+                [40.6173282596323, 22.975679520737497],
+                {}
+            ).addTo(marker_cluster_799413648bfe136dbcba7f81b386b295);
+        
+    
+        var popup_89336e21018c27fd8720abb8193b3171 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da255455dfb0aef7b99ae8121590a020 = $(`<div id="html_da255455dfb0aef7b99ae8121590a020" style="width: 100.0%; height: 100.0%;">Apartment Toumpa 80sq.m</div>`)[0];
+                popup_89336e21018c27fd8720abb8193b3171.setContent(html_da255455dfb0aef7b99ae8121590a020);
+            
+        
+
+        marker_7984b44fb5f676555115098cdad8601a.bindPopup(popup_89336e21018c27fd8720abb8193b3171)
+        ;
+
+        
+    
+</script>
+</html>
